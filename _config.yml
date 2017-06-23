@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "decisions are hard"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Felix Molter"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://moltaire.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "moltaire/moltaire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Felix Molter"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Decision neuroscientist and nerd."
+  location         : "Berlin"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -89,10 +89,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "moltaire"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "moltaire"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "moltaire"
   vine             :
   weibo            :
   xing             :
