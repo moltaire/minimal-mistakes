@@ -81,7 +81,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Decision neuroscientist and nerd."
   location         : "Berlin"
-  email            : 
+  email            : "felixmolter@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -172,9 +172,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -241,6 +241,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
-      related: true
+      comments: true
+      share: false
+      related: false
