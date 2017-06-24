@@ -11,7 +11,7 @@ tags:
 
 The *hello world* example in cognitive modeling in decision making is probably something like a simple Expected Utility (EU) model. This is what we will build here, to highlight modeling conventions, best practices and implementation details along the way. 
 
-I would like to try some inline math right here with dollar signs $x = 5$ or the more clunky \\(sin(x^2) \\). Did it work?
+Can we do inline math with double dollar $$sin(x)$$ signs?
 
 ```python
 import numpy as np
