@@ -1,6 +1,7 @@
 ---
 title: The decision model "Hello, world!"
 excerpt: How to implement and fit a basic Expected Utility model in python
+read_time: false
 tags:
   - python
   - modeling
