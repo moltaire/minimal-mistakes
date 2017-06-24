@@ -58,7 +58,7 @@ df[['trial', 'p1', 'm1', 'p2', 'm2']].head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th></th>
       <th>trial</th>
       <th>p1</th>
