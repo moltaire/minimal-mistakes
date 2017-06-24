@@ -111,7 +111,7 @@ df[['trial', 'p1', 'm1', 'p2', 'm2']].head()
 </table>
 </div>
 
-This is a minimal representation of our task, and indeed we could imagine that this would be the data we obtain from our subject. What's missing, of course, is the subject's actual behavior: The button presses, or choices the subject made in each trial. For our purposes here, we will *simulate* these from our model: We will assume that our fake subject uses this model to make their choices.
+This is a minimal representation of our task, and indeed we could imagine that this would be the data we obtain from our subject. What's missing, of course, is the subject's actual behavior: The button presses, or choices the subject made in each trial. For our purposes here, we will *simulate* these from our model: We will assume that our fake subject uses this model to make their choices. Lalala new version.
 
 $$EU(p, x, \alpha) = px^\alpha$$
 
