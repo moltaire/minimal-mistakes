@@ -11,6 +11,7 @@ tags:
 
 The *hello world* example in cognitive modeling in decision making is probably something like a simple Expected Utility (EU) model. This is what we will build here, to highlight modeling conventions, best practices and implementation details along the way. 
 
+I would like to try some inline math right here with dollar signs $x = 5$ or the more clunky \\(sin(x^2) \\). Did it work?
 
 ```python
 import numpy as np
@@ -152,4 +153,4 @@ def EU(p, x, α):
 
 One additional part of the model that is traditionally out of focus is the *choice rule*. It translates option utilities into choice probabilities. There are many ways to do this, so the choice of the choice rule matters and is considered an *auxilliary assumption to the model*. 
 
-* --- this post is still under construction --- *
+*--- this post is still under construction ---*
