@@ -113,6 +113,8 @@ df[['trial', 'p1', 'm1', 'p2', 'm2']].head()
 
 This is a minimal representation of our task, and indeed we could imagine that this would be the data we obtain from our subject. What's missing, of course, is the subject's actual behavior: The button presses, or choices the subject made in each trial. For our purposes here, we will *simulate* these from our model: We will assume that our fake subject uses this model to make their choices.
 
+$$EU(p, x, \alpha) = px^\alpha$$
+
 ### Simulate choice data
 
 In order to simulate from the model, we need to write the model first. The intuition behind the EU model is that subjects assign a utility $U$ to each outcome of each available alternative, and then (probabilistically) decide according to expected utilities (i.e. calculating expectations from outcome probabilities and outcome utilities). Utilities $U$ are often assumed to follow a nonlinear function of the objective outcomes like $u(x) = x^\alpha$, where $\alpha$ is a free parameter that determines the shape of the *utility curve* for a given subject.
