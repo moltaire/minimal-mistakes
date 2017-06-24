@@ -45,7 +45,7 @@ df[['trial', 'p1', 'm1', 'p2', 'm2']].head()
 <div>
 <style>
     .dataframe thead tr:only-child th {
-        text-align: right;
+        text-align: left;
     }
 
     .dataframe thead th {
